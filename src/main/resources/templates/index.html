@@ -12,6 +12,7 @@
 		<br/>
 		<input type="number" th:field ="*{eta}" required/>
 		<p th:if="${#fields.hasErrors('eta')}" th:errors="*{eta}"></p>
+		<img th:src="@{image/}">
 		
 		<br/>
 		<input type="text" th:field ="*{username}" required/>
