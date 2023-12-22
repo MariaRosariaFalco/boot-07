@@ -31,7 +31,7 @@ public class IndexController {
 		//utente.setPassword("def");
 		
 		
-		model.addAttribute ("utente", utente);
+		model.addAttribute ("utente", utente); //per commit
 		
 		return "index";
 				
