@@ -5,12 +5,15 @@
 <title>Registrazione Utente</title>
 </head>
 <body>
+	<h1>Titolo di prova</h1>
 	<form method="post" th:object="${utente}">
 		<input type="text" th:field="*{nome}"required/>
 		<p th:if="${#fields.hasErrors('nome')}" th:errors="*{nome}"></p>
 		<br/>
 		<input type="number" th:field ="*{eta}" required/>
 		<p th:if="${#fields.hasErrors('eta')}" th:errors="*{eta}"></p>
+		<img th:src="@{image/}">
+		
 		<br/>
 		<input type="text" th:field ="*{username}" required/>
 		<p th:if="${#fields.hasErrors('username')}" th:errors="*{username}"></p>
