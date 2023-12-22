@@ -24,14 +24,14 @@ public class IndexController {
 	@GetMapping
 	public String getPage(Model model) {
 		
-		Utente utente=new Utente(); //commento prova
+		Utente utente=new Utente(); 
 		//utente.setNome("Laura");
 		//utente.setEta(45);
 		//utente.setUsername("abc");
 		//utente.setPassword("def");
 		
 		
-		model.addAttribute ("utente", utente); //per commit
+		model.addAttribute ("utente", utente); 
 		
 		return "index";
 				
