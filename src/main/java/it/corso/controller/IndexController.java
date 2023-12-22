@@ -24,7 +24,7 @@ public class IndexController {
 	@GetMapping
 	public String getPage(Model model) {
 		
-		Utente utente=new Utente();
+		Utente utente=new Utente(); //commento prova
 		//utente.setNome("Laura");
 		//utente.setEta(45);
 		//utente.setUsername("abc");
